@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+
+      .mgr8 {
+        margin-right: 100px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .mgt30 {
+        margin-top: 150px;
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!--导航区-->
+    <div style="width: 150px" class="mgr8">
+      <img
+        src="https://s1.328888.xyz/2022/07/23/mPiZw.jpg"
+        width="80px"
+        height="80px"
+        alt="zs"
+        border="0"
+      />
+      <p>导航</p>
+      <p>导航</p>
+      <p>导航</p>
+      <p>导航</p>
+    </div>
+    <!--内容区-->
+    <div class="flex1 flex column">
+      <!--介绍区-->
+      <div style="height: 550px" class="flex column">
+        <!--图片区-->
+        <div style="height: 300px">
+          <img src="https://s3.328888.xyz/2022/08/16/hUCeU.png" width="300px" />
+        </div>
+        <!--文字区-->
+        <div class="mgt30">
+          <p>
+            这个是本人最好成绩（doge）那么扫雷是什么呢？它是一款大众类的益智小游戏，于1992年发行。游戏目标是在最短的时间内根据点击格子出现的数字找出所有非雷格子，同时避免踩雷，踩到一个雷即全盘皆输。详情（具体方法请见友情链接）
+          </p>
+        </div>
+      </div>
+      <!--指引区-->
+      <div class="mgt8">
+        <p>友情链接</p>
+        <a href="http://saolei.wang/Main/Index.asp">中国扫雷网</a>
+        <a href="https://jq.qq.com/?_wv=1027&k=OQRzRRtr">萌新进步喵群</a>
+      </div>
+    </div>
+  </body>
+</html>
